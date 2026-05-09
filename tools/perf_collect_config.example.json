@@ -1,0 +1,30 @@
+{
+  "product_id": "P001",
+  "product_name": "BongoCat",
+  "process_names": ["BongoCat"],
+  "scenarios": [
+    {
+      "name": "空闲常驻",
+      "duration_sec": 600,
+      "interval_sec": 1,
+      "notes": "启动后等待稳定，桌面静置，不主动交互"
+    },
+    {
+      "name": "基础交互",
+      "duration_sec": 300,
+      "interval_sec": 1,
+      "notes": "点击、拖拽、切换动作、隐藏与恢复"
+    },
+    {
+      "name": "长时间稳定",
+      "duration_sec": 3600,
+      "interval_sec": 1,
+      "notes": "常驻运行，观察内存、句柄、线程增长"
+    }
+  ],
+  "external_logs": {
+    "presentmon_csv": "",
+    "frameview_csv": "",
+    "hwinfo_csv": ""
+  }
+}

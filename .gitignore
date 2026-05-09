@@ -1,0 +1,21 @@
+# Third-party downloaded products and nested repositories
+BongoCat/
+open_llM_vtuber/
+
+# Generated performance run outputs
+perf_runs/
+perf_test_runs/
+external_logs/
+docx_render_check/
+
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+~$*
+
+# Temporary workbook copies
+perf_test_workbook.xlsx
