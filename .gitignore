@@ -12,6 +12,11 @@ docx_render_check/
 __pycache__/
 *.py[cod]
 
+# Local automation helpers are kept on this machine, not in the docs-only repo
+tools/*.ps1
+tools/*.py
+tools/*.json
+
 # OS/editor noise
 .DS_Store
 Thumbs.db
